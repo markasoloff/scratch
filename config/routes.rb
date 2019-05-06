@@ -3,4 +3,7 @@ Rails.application.routes.draw do
   # verb "/urls" => "namespace/controllers#action"
 
   get "/" => "course#index"
+  get "/contact" => "course#contact"
+  get "/courses" => "course#courses"
+  post "/contact" => "course#contact"
 end
